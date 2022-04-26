@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://telegra.ph/file/87f1fb4d1ab2e95cfcfe.jpg">
+  <img src="https://telegra.ph/file/87f1fb4d1ab2e95cfcbfe.jpg">
 </p>
 <h1 align="center">
   <b>MAMBA X SPAM,</b>
