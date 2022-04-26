@@ -1,17 +1,17 @@
 {
-      "name": "RiZoeL X Spam",
+      "name": "Mamba X Spam",
       "description": "MOST POWERFUL + STABLE SPAM USERBOTS",
-      "logo": "https://telegra.ph/file/db194f99e15db50f43c72.jpg",
+      "logo": "https://telegra.ph/file/87f1fb4d1ab2e95cfcfe.jpg",
       "keywords": [
         "telegram",
         "telethon",
         "telegram-bot",
-        "RiZoeLXSpam",
+        "MambaXSpam",
         "SpamBots"
       ],   
-  "repository": "https://github.com/MrRizoel",
-  "website": "https://github.com/MrRizoel",
-  "success_url": "https://t.me/RiZoeLX",
+  "repository": "https://github.com/SUKHPAL443",
+  "website": "https://github.com/SUKHPAL443",
+  "success_url": "https://t.me/MAMBA_NETWORK",
   "env": {
              "API_ID": {
         "description": "Fill Api ID Take this value from My.telegram.org",
