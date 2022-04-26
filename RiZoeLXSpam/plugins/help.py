@@ -4,9 +4,9 @@ from time import time
 from datetime import datetime
 
     
-HELP_PIC = "https://telegra.ph/file/9acc785291052c8f8998d.jpg"
+HELP_PIC = "https://telegra.ph/file/87f1fb4d1ab2e95cfcfe.jpg"
 
-RiZoeLX = "🔥 𝗥𝗜𝗭𝗢𝗘𝗟 𝗫 𝗦𝗣𝗔𝗠 🔥\n\n"
+RiZoeLX = "🔥 𝑀𝐴𝑀𝐵𝐴 𝑋 𝑆𝑃𝐴𝑀 🔥\n\n"
  
 RiZoeLX += f"__ᴄᴍᴅs ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ʀɪᴢᴏᴇʟ x sᴘᴀᴍ__\n\n"
 
@@ -22,9 +22,9 @@ RiZoeLX += f" ↧ 𝚂𝙿𝙰𝙼 𝙲𝙼𝙳𝚂 ↧\n\n"
 
 RiZoeLX += f" `.raid` - to raid\n `.replyraid` - to active reply raid\n `.dreplyraid` - to de-active reply raid\n `.spam` - this cmd use for Normal spam\n `.bigspam` - this cmd use for big spam\n `.delayspam` - this cmd use for delay spam\n\n"
  
-RiZoeLX += f"ALL CMDS WITH DETAILS [HERE.](https://telegra.ph/%F0%9D%97%A5%F0%9D%97%9C%F0%9D%97%AD%F0%9D%97%A2%F0%9D%97%98%F0%9D%97%9F-%F0%9D%97%AB-%F0%9D%97%A6%F0%9D%97%A3%F0%9D%97%94%F0%9D%97%A0-10-15)\n\n"
+RiZoeLX += f"ALL CMDS WITH DETAILS [HERE.](https://t.me/MAMBA_NETWORK)\n\n"
  
-RiZoeLX += f"© @RiZoeLX | @DNHxHELL\n"
+RiZoeLX += f"© @MAMBA_NETWORK | @ITZ_SUKHI\n"
 
 
 @Riz.on(events.NewMessage(pattern=r"\.help"))
