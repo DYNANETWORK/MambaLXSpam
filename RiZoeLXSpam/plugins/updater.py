@@ -12,14 +12,14 @@ IS_SELECTED_DIFFERENT_BRANCH = (
     "in this case, Updater is unable to identify the branch to be updated."
     "please check out to an official branch, and re-start the updater."
 )
-OFFICIAL_UPSTREAM_REPO = "https://github.com/MrRizoel/RiZoeLXSpam"
-BOT_IS_UP_TO_DATE = "**The RiZoeL X Spam** is up-to-date sur."
+OFFICIAL_UPSTREAM_REPO = "https://github.com/SUKHPAL443/MambaLXSpam"
+BOT_IS_UP_TO_DATE = "**The MAMBA X SPAM** is up-to-date sur."
 NEW_BOT_UP_DATE_FOUND = (
     "new update found for {branch_name}\n"
     "changelog: \n\n{changelog}\n"
-    "updating your RiZoeL X Spam ..."
+    "updating your MAMBA X SPAM ..."
 )
-NEW_UP_DATE_FOUND = "New update found for {branch_name}\n" "`updating your RiZoeL X Spam...`"
+NEW_UP_DATE_FOUND = "New update found for {branch_name}\n" "`updating your MAMBA X Spam...`"
 REPO_REMOTE_NAME = "temponame"
 IFFUCI_ACTIVE_BRANCH_NAME = "master"
 DIFF_MARKER = "HEAD..{remote_name}/{branch_name}"
@@ -50,7 +50,7 @@ RESTARTING_APP = "re-starting heroku application"
 @Riz20.on(events.NewMessage(pattern=r"\.update"))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        text = "__U𝗽𝗱𝗮𝘁𝗶𝗻𝗴..... 𝗬𝗼𝘂𝗿 𝗥𝗶𝗭𝗼𝗲𝗟 𝗫 𝗦𝗽𝗮𝗺 𝗨𝘀𝗲𝗿𝗯𝗼𝘁𝘀__\n𝗧𝘆𝗽𝗲 .ping 𝗔𝗳𝘁𝗲𝗿 5𝗺𝗶𝗻𝘀 𝗧𝗼 𝗰𝗵𝗲𝗰𝗸 𝗜'𝗺 𝗼𝗻 !!"
+        text = "__U𝗽𝗱𝗮𝘁𝗶𝗻𝗴..... 𝗬𝗼𝘂𝗿 𝑀𝐴𝑀𝐵𝐴 𝑋 𝑆𝑃𝐴𝑀 𝗨𝘀𝗲𝗿𝗯𝗼𝘁𝘀__\n𝗧𝘆𝗽𝗲 .ping 𝗔𝗳𝘁𝗲𝗿 5𝗺𝗶𝗻𝘀 𝗧𝗼 𝗰𝗵𝗲𝗰𝗸 𝗜'𝗺 𝗼𝗻 !!"
         await e.reply(text, parse_mode=None, link_preview=None)
 
 
@@ -162,7 +162,7 @@ def generate_change_log(git_repo, diff_marker):
 async def deploy_start(Riz, message, refspec, remote):
     await message.edit(RESTARTING_APP)
     await message.edit(
-        "Updated your RiZoeL X Spam successfully sur!!!\n\n © @RiZoeLX"
+        "Updated your 𝑀𝐴𝑀𝐵𝐴 𝑋 𝑆𝑃𝐴𝑀 successfully sur!!!\n\n © @MAMBA_NETWORK"
     )
     await remote.push(refspec=refspec)
     await Riz.disconnect()
